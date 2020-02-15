@@ -1,0 +1,58 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "fxp/composer-asset-plugin": "^1.4",
+        "daixianceng/yii2-echarts": "^1.2",
+        "cliff363825/yii2-kindeditor": "^1.1",
+        "qiniu/php-sdk": "^7.2",
+        "kartik-v/yii2-widget-select2": "^2.1",
+        "dmstr/yii2-adminlte-asset": "^2.6",
+        "kartik-v/yii2-widget-depdrop": "^1.0",
+        "phpoffice/phpexcel": "^1.8",
+        "kartik-v/yii2-widget-datetimepicker": "^1.4",
+        "kartik-v/yii2-widget-datepicker": "^1.4",
+		"ext-json": "*",
+        "ext-curl": "*",
+        "kartik-v/yii2-widget-fileinput": "^1.0",
+        "crazydb/yii2-ueditor": "^1.6",
+        "cozumel/yii2-image-cropper": "^1.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "~2.1.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.4.0",
+        "phpunit/phpunit": "~5.7.27 || ~6.5.5",
+        "codeception/verify": "~0.5.0 || ~1.1.0",
+        "symfony/browser-kit": ">=2.7 <=4.2.4"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
